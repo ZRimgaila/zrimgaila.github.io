@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ZRimgaila/zrimgaila.github.io/static/css/main.578d88d8.css",
+    "main.js": "/ZRimgaila/zrimgaila.github.io/static/js/main.5c1ccc70.js",
+    "index.html": "/ZRimgaila/zrimgaila.github.io/index.html",
+    "main.578d88d8.css.map": "/ZRimgaila/zrimgaila.github.io/static/css/main.578d88d8.css.map",
+    "main.5c1ccc70.js.map": "/ZRimgaila/zrimgaila.github.io/static/js/main.5c1ccc70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.578d88d8.css",
+    "static/js/main.5c1ccc70.js"
+  ]
+}
