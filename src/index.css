@@ -1,13 +1,249 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, link {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/* .navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+  border-bottom: 1px solid rgb(111, 104, 92);
+} */
+
+/* .navbar h1{
+  color: #4d8443;
+  font-size: 25px;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none; 
+  padding: 6px;
+}*/
+
+/* Uzvaziavus su pelyte kaip atrodo */
+/* .navbar a:hover{ 
+  background-color: #8ec884;
+  border-radius: 8px;
+}  */
+
+.flag-text {
+  font-weight: bold;
+  background: linear-gradient(to right, #FDB913, #006A44, #C1272D);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* .content{
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+} */
+
+/* .project-list h2{
+  font-size: 20px;
+} */
+
+/* .project-preview{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin: 10px 0;
+  border: 1px solid #47903a;
+  border-style: dashed;
+  border-radius: 8px;
+} */
+
+/* .project-preview h2:hover{
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.1);;
+} */
+
+/* .project-preview h2{
+  font-size: 16px;
+  margin: 10px;
+  flex-grow: 1; 
+} */
+
+/* .project-preview .my-image{
+  width: 20px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  margin-left: 8px;
+  object-fit: contain;
+  border-radius: 50%;
+} */
+
+/* Project: Algorithm for solving biobjective travel salesman problem*/
+.project-image-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+/* Project:  Brain trainer game*/
+.project-image-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.pr-1-image-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  align-items: baseline;
+}
+
+.image-caption {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 90%;
+}
+
+.project-details .my-image{
+  width: 30px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  margin-left: 8px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+
+.project-details .project-image{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+  margin-left: 8px;
+  object-fit: contain;
+}
+
+.project-details .pr-1-image{
+  width: 300px;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+  margin-left: 8px;
+  object-fit: contain;
+}
+
+
+/* .project-details div{
+  margin: 20px 0; 
+}
+.project-details p{
+  margin: 20px 0; 
+} */
+
+.not-found p{
+  margin: 20px 0;
+}
+
+.skill-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  align-items: center;
+}
+
+.skill-preview img {
+  width: 80px;
+  height: auto;
+  border-radius: 0px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-preview {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.contact-preview:hover {
+  background-color: #f0f0f0;
+}
+
+.contact-image {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.contact-preview p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.my-image {
+  margin-left: 200px;
+  border-radius: 30px;
+  width: 350px;
+  height: auto;
+  padding: 20px;
 }
